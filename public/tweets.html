@@ -1,0 +1,80 @@
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - hello twitter rev</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+  
+  <!-- partial:index.partial.html -->
+    <meta charset = "utf-8" />
+    <title> Twitter!!! </title>
+    
+    <!-- <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-database.js"></script> -->
+  
+  
+  
+   
+  
+    
+  </head>
+  
+  <body>
+    <h1>
+      Twitter
+      <br />
+      <small>
+        <em> Feed </em>
+      </small>
+    </h1>
+    
+  
+  
+  
+    <!-- user module -->
+    <section id = "add-user-module"> 
+      <button id = "open-add-user-form-btn"> + </button>
+      <form>
+        <h2> What's Happening </h2> 
+         <br> 
+        <input type='text' data-key='content' class = 'user-input'><br> 
+        <br> 
+        <button type = 'button' id = 'add-user-btn'> Tweet</button> 
+      </form> 
+    </section> 
+    
+    
+    <!-- Edit user module -->
+    
+    <section id = "edit-user-module"> 
+      <form> 
+        <h2> Edit Tweet</h2> 
+        <input type = "hidden" class = 'edit-userid'> 
+        Edit Tweet <br> 
+        <input type = 'text' data-key='content' class = 'edit-user-input'> <br> 
+        <button type='button' id='edit-user-btn'>EDIT</button>
+      </form>
+      </section>
+  
+  
+  
+      <!-- user module -->
+    <ul id = "user-list"></ul>
+    <div id = "user-detail"></div>
+  </body>
+    
+  
+  
+  <ul id = "list">
+  
+  </ul>
+  <!-- partial -->
+    
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/framework7/5.7.14/js/framework7.min.js'></script>
+  
+  <script src= "https://www.gstatic.com/firebasejs/9.9.4/firebase-app-compat.js">  </script>
+  <script src= "https://www.gstatic.com/firebasejs/9.9.4/firebase-database-compat.js">  </script>
+  <script src= "https://www.gstatic.com/firebasejs/9.9.4/firebase-auth-compat.js">  </script>
+  <!-- <script type = "text/javascript" src="./home.js"></script> -->
+  <script type="module" src="./script.js"></script>
+  
